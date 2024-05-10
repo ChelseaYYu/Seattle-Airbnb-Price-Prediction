@@ -20,5 +20,11 @@ This project aims to analyze Airbnb rental prices in Seattle to uncover insights
 ## Data Source
 The data used in this project is sourced from the publicly available Airbnb dataset for Seattle, covering calendar years and listing details.
 
+## Libraries Used
+Pandas, NumPy for data manipulation.
+Matplotlib, Seaborn for data visualization.
+Scikit-Learn for machine learning and predictive modeling.
+NLTK for natural language processing tasks.
+
 ## Installation and Usage
-Ensure you have Python installed on your system. You can then clone this repository and install the required libraries using the following commands:
+Ensure you have Python installed on your system.
