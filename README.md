@@ -55,18 +55,5 @@ Feature importance is evaluated to understand the influence of different variabl
 ## Saving the Model
 The final model is saved using `pickle` to ensure reproducibility and to allow for future deployment scenarios.
 
-## Usage Example
-Here's how to load and use the final model to make predictions:
-```python
-import pickle
-
-# Load the model from disk
-with open('seattle_airbnb.pickle', 'rb') as model_file:
-    model = pickle.load(model_file)
-
-# Assume X_test is preloaded with the features of the listings for which you want to predict prices
-predictions = model.predict(X_test)
-print(f"Predicted rental prices: {predictions}")
-
 ## Installation and Usage
 Ensure you have Python installed on your system.
