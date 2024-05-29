@@ -78,10 +78,15 @@ The final model is saved using `pickle` to ensure reproducibility and to allow f
 
 ## Summary of Results
 Key Findings
+
 Peak Seasons: January and July have the highest occupancy rates, indicating peak seasons for Airbnb rentals in Seattle.
+
 Price Fluctuations: Rental prices peak during the summer, particularly in July, when demand is highest.
+
 Influential Factors: Key factors influencing rental prices include the number of accommodates, room type, reviews per month, host duration, security deposit, and availability.
+
 Model Performance
+
 Three models were built and evaluated to predict rental prices:
 
 Baseline Model:
