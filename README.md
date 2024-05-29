@@ -90,17 +90,21 @@ Model Performance
 Three models were built and evaluated to predict rental prices:
 
 Baseline Model:
+
 Mean Absolute Error (MAE): 51.92
-Mean Squared Error (MSE): 5160.94
+
 Random Forest Regressor:
+
 Mean Absolute Error (MAE): 29.82
-Mean Squared Error (MSE): 1953.74
+
 XGBoost Regressor:
+
 Mean Absolute Error (MAE): 30.01
-Mean Squared Error (MSE): 1938.11
+
 The Random Forest and XGBoost models significantly improved prediction accuracy compared to the baseline model.
 
 
 ## Acknowledgments
 Kaggle: For providing the Airbnb Seattle dataset.
+
 Google Colab: For providing the platform to execute and analyze the data.
