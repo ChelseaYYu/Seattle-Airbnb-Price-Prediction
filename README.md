@@ -17,8 +17,7 @@ nltk: Natural Language Processing
 README.md: This file, providing an overview of the project, the libraries used, and the results of the analysis.
 Airbnb_final.ipynb: Jupyter notebook containing the complete analysis, including data preprocessing, exploratory data analysis (EDA), feature engineering, model building, and evaluation.
 
-The data used in this project is sourced from the publicly available Airbnb dataset for Seattle, covering calendar years and listing details.
-[data:](https://www.kaggle.com/datasets/airbnb/seattle/data)
+The [data](https://www.kaggle.com/datasets/airbnb/seattle/data) used in this project is sourced from the publicly available Airbnb dataset for Seattle, covering calendar years and listing details.
 
 calendar.csv: Booking and availability data for Airbnb listings in Seattle.
 
@@ -39,14 +38,6 @@ reviews.csv: Review data for Airbnb listings in Seattle.
 
 3. **Pricing Strategies**
    - What factors affect the pricing of listings?
-
-
-
-## Libraries Used
-Pandas, NumPy for data manipulation.
-Matplotlib, Seaborn for data visualization.
-Scikit-Learn for machine learning and predictive modeling.
-NLTK for natural language processing tasks.
 
 ## Data Preprocessing
 ### Encoding and Imputing
@@ -77,5 +68,26 @@ Feature importance is evaluated to understand the influence of different variabl
 ## Saving the Model
 The final model is saved using `pickle` to ensure reproducibility and to allow for future deployment scenarios.
 
-## Installation and Usage
-Ensure you have Python installed on your system.
+## Summary of Results
+Key Findings
+Peak Seasons: January and July have the highest occupancy rates, indicating peak seasons for Airbnb rentals in Seattle.
+Price Fluctuations: Rental prices peak during the summer, particularly in July, when demand is highest.
+Influential Factors: Key factors influencing rental prices include the number of accommodates, room type, reviews per month, host duration, security deposit, and availability.
+Model Performance
+Three models were built and evaluated to predict rental prices:
+
+Baseline Model:
+Mean Absolute Error (MAE): 51.92
+Mean Squared Error (MSE): 5160.94
+Random Forest Regressor:
+Mean Absolute Error (MAE): 29.82
+Mean Squared Error (MSE): 1953.74
+XGBoost Regressor:
+Mean Absolute Error (MAE): 30.01
+Mean Squared Error (MSE): 1938.11
+The Random Forest and XGBoost models significantly improved prediction accuracy compared to the baseline model.
+
+
+## Acknowledgments
+Kaggle: For providing the Airbnb Seattle dataset.
+Google Colab: For providing the platform to execute and analyze the data.
