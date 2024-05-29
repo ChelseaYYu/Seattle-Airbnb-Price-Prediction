@@ -22,6 +22,7 @@ nltk: Natural Language Processing
 
 ## Files in the Repository
 README.md: This file, providing an overview of the project, the libraries used, and the results of the analysis.
+
 Airbnb_final.ipynb: Jupyter notebook containing the complete analysis, including data preprocessing, exploratory data analysis (EDA), feature engineering, model building, and evaluation.
 
 The [data](https://www.kaggle.com/datasets/airbnb/seattle/data) used in this project is sourced from the publicly available Airbnb dataset for Seattle, covering calendar years and listing details.
