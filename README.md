@@ -5,12 +5,19 @@ This project aims to analyze Airbnb rental prices in Seattle to uncover insights
 
 ## Libraries Used
 pandas: Data manipulation and analysis
+
 numpy: Numerical computing
+
 scikit-learn: Machine learning and data preprocessing
+
 matplotlib: Data visualization
+
 seaborn: Statistical data visualization
+
 xgboost: Implementation of the XGBoost algorithm
+
 category_encoders: Encoding categorical variables
+
 nltk: Natural Language Processing
 
 ## Files in the Repository
