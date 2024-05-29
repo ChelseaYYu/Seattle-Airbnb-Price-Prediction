@@ -3,6 +3,24 @@
 ## Project Overview
 This project aims to analyze Airbnb rental prices in Seattle to uncover insights on demand fluctuations and occupancy rates. The analysis focuses on determining peak seasons, price variability, and average occupancy rates, helping stakeholders optimize pricing and improve rental strategies.
 
+## Libraries Used
+pandas: Data manipulation and analysis
+numpy: Numerical computing
+scikit-learn: Machine learning and data preprocessing
+matplotlib: Data visualization
+seaborn: Statistical data visualization
+xgboost: Implementation of the XGBoost algorithm
+category_encoders: Encoding categorical variables
+nltk: Natural Language Processing
+
+## Files in the Repository
+README.md: This file, providing an overview of the project, the libraries used, and the results of the analysis.
+Airbnb_final.ipynb: Jupyter notebook containing the complete analysis, including data preprocessing, exploratory data analysis (EDA), feature engineering, model building, and evaluation.
+data/: [Directory containing raw data files, including:](https://www.kaggle.com/datasets/airbnb/seattle/data)
+calendar.csv: Booking and availability data for Airbnb listings in Seattle.
+listings.csv: Detailed information about Airbnb listings in Seattle.
+reviews.csv: Review data for Airbnb listings in Seattle.
+
 ## Business Questions
 1. **Demand Analysis**
    - What are the peak seasons for Airbnb rentals in Seattle?
