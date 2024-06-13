@@ -54,8 +54,7 @@ reviews.csv: Review data for Airbnb listings in Seattle.
   - Numerical attributes are imputed using the median to handle outliers.
   - Categorical attributes are imputed with the most frequent category to maintain the distribution.
 
-### Handling Missing Data
-Missing values are imputed using the mean for numerical columns and the most frequent category for categorical columns to ensure the dataset is suitable for predictive modeling.
+
 
 ## Model Building
 ### Baseline Model
